@@ -1,0 +1,82 @@
+p {
+    color: rgb(0, 0, 0);
+    text-align: center;
+
+}
+
+div .he {
+    border-radius: 40;
+    background-color: rgb(186, 190, 195);
+    width: 300px;
+    text-align: center;
+}
+
+h2 {
+    display: inline-block;
+    color: transparent;
+    -webkit-background-clip: text;
+    background-clip: text;
+    background-image: linear-gradient(90deg, #2ca2b4, #5598de 24%, #7f87ff 45%, #f65aad 76%, #ec3d43);
+    will-change: transform;
+    padding-top: .5px;
+    overflow: hidden;
+    background-color: #2ca2b4 0%;
+    padding-bottom: .03em;
+    margin-bottom: -0.03em;
+    line-height: 1.1;
+    font-weight: 600;
+    letter-spacing: 0em;
+    font-family: SF Pro Display, SF Pro Icons, Helvetica Neue, Helvetica, Arial, sans-serif;
+}
+
+h1 {
+    font-weight: 600;
+    color: #000000;
+    font-size: 48px;
+    line-height: 1;
+    font-weight: 600;
+    letter-spacing: -0.003em;
+    font-family: SF Pro Display, SF Pro Icon, Helvetica, Arial, sans-serif;
+
+}
+
+nav {
+    border: black solid 4px;
+    background-color: rgb(29, 27, 27);
+    margin-top: 0px;
+    nav-up: current;
+}
+
+h3 {
+    color: white;
+    margin: 3px;
+}
+
+body {
+    text-align: center;
+    align-items: center;
+    background-color: rgb(255, 255, 255);
+    border: 5px solid black;
+    border-radius: 40px;
+    padding: 49px;
+}
+
+button {
+    display: inline-block;
+    padding: 10px 25px;
+    font-size: 24px;
+    cursor: pointer;
+    text-decoration: none;
+    outline: none;
+    color: white;
+    background-color: black;
+    border: none;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+}
+
+button:hover {
+    background-color: #ff0303;
+    box-shadow: 0 5px rgb(12, 243, 89);
+    transform: translateY(4px; );
+}
